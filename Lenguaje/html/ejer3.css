@@ -1,0 +1,83 @@
+body {
+height:100vh;
+margin: 0;
+}
+
+div {
+border: 2px solid black; 
+box-sizing: border-box;
+display: flex;
+}
+
+p {
+font-size: 3vw;
+}
+
+.caja {
+    background-color: orange;
+    height: 30%;
+    border-bottom: 0px;
+}
+
+.zona1 {
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vmin;
+}
+
+.zona2 {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vmin;
+}
+
+.caja2 {
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+}
+
+.zona3 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vmin;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.caja3 {
+    height: 50%;
+    background-color: yellow;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.zona4 {
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vmin;
+}
+
+.zona5 {
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vmin;
+}
+
+.caja4 {
+    height: 10%;
+    background-color: red;
+    border-top: 0px;
+}
+
+.zona6 {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vmin;
+}

@@ -1,0 +1,49 @@
+body {
+height:100vh;
+margin: 0;
+}
+
+div {
+border: 2px solid black; 
+box-sizing: border-box;
+display: flex;
+}
+
+p {
+font-size: 3vw;
+}
+
+.caja1 {
+    background-color: rgb(54, 194, 54);
+    height: 30%;
+    width: 100%;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja1_1 {
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vmin;
+}
+
+.caja2 {
+    background-color: rgb(99, 153, 235);
+    height: 70%;
+    width: 100%;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caja2_1 {
+    height: 90%;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
