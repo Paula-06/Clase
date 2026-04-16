@@ -1,0 +1,20 @@
+@startuml
+abstract class Clases.Persona
+annotation java.lang.Override
+class Clases.Estudiante
+class Clases.Main
+class Clases.Profesor
+class java.util.Arrays
+class java.util.Collections
+interface Interfaces.MiembroAcademia
+interface java.lang.Comparable
+Clases.Persona ..> java.lang.Override
+Clases.Persona --|> Interfaces.MiembroAcademia
+Clases.Estudiante --|> Clases.Persona
+Clases.Estudiante ..> java.lang.Override
+Clases.Main ..> java.util.Arrays
+Clases.Main ..> java.util.Collections
+Clases.Profesor --|> Clases.Persona
+Clases.Profesor ..> java.lang.Override
+Clases.Profesor --|> java.lang.Comparable
+@enduml

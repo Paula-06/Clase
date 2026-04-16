@@ -1,0 +1,7 @@
+CREATE TABLE PERSONA (
+    dni CHAR(9) PRIMARY KEY,
+    nombre VARCHAR(20) NOT NULL,
+    edad TINYINT CHECK (edad BETWEEN 0 AND 99),
+    padre CHAR(9),
+    FOREIGN KEY (padre) REFERENCES PERSONA(dni)
+);

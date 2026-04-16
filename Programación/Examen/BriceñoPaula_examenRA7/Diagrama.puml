@@ -1,0 +1,3 @@
+@startuml
+interface Interfaces.MiembroAcademia
+@enduml
